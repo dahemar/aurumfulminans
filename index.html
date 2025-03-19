@@ -47,17 +47,19 @@
             object-fit: contain;
             margin-bottom: 40px;
         }
-        a {
+        .text {
             color: #333;
-            text-decoration: none;
             font-size: 14px;
             font-weight: 300;
             text-transform: lowercase;
             padding: 0 10px;
             line-height: 1.4;
         }
-        a:hover {
+        a {
+            color: #333;
             text-decoration: underline;
+            font-weight: 300;
+            text-transform: lowercase;
         }
         
         /* Media queries para dispositivos móviles */
@@ -75,7 +77,7 @@
                 max-height: 20vh;
                 margin-bottom: 30px;
             }
-            a {
+            .text, a {
                 font-size: 12px;
                 max-width: 280px;
             }
@@ -85,7 +87,7 @@
 <body>
     <div class="container">
         <img src="images/logo.png" alt="Logo" class="logo">
-        <a href="https://www.instagram.com/malimma_o/" target="_blank">site under construction | for any inquiries, please visit the creator's instagram page</a>
+        <p class="text">site under construction | for any inquiries, please visit the creator's <a href="https://www.instagram.com/malimma_o/" target="_blank">instagram page</a></p>
     </div>
 </body>
 </html> 
